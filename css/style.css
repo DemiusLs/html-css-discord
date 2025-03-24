@@ -32,60 +32,76 @@ img {
     background-color: rgba(63, 62, 62, 0.849);
 }
 
+body {
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
 /* HEADER */
 .header {
     display: flex;
-    background-color: aliceblue;
-    height: 50px;
+    background-color: #255EE9;
+    height: 80px;
     align-items: center;
 }
 
+
+
 .header-nav {
-    background-color: orange;
+
     display: flex;
-    justify-content: space-between;
 
 }
 
 .logo-block {
     display: flex;
     align-items: center;
-    border: 2px solid black;
     width: 20%;
     padding: 5px;
-
+    min-width: 124px;
 }
 
 .navigation {
-    border: 2px solid black;
     width: 60%;
     display: flex;
     justify-content: center;
-    min-width: 200px;
+    min-width: 520px;
 }
 
 .login {
-    border: 2px solid black;
     width: 20%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding: 5px;
 }
 
-.login button {
-    background-color: orange;
-    border: none;
-}
+
 
 .nav-list {
+
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.nav-list li {
-    margin-right: 10px;
+
+
+.nav-list li a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 0 10px 0 10px;
 }
 
 /* MAIN */
@@ -94,7 +110,10 @@ img {
 
 
 .hero-section {
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+
+
     display: flex;
     justify-content: center;
 }
