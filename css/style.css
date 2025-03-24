@@ -24,6 +24,11 @@ img {
     padding-bottom: 30px;
 }
 
+.py-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .gray-bg {
     background-color: gray;
 }
@@ -47,6 +52,13 @@ body a {
     padding: 10px 10px;
 }
 
+.dark-btn {
+    background-color: #23272a;
+    color: #ffffff;
+}
+
+
+
 /* HEADER */
 .header {
     display: flex;
@@ -60,6 +72,7 @@ body a {
 .header-nav {
 
     display: flex;
+
 
 }
 
@@ -105,24 +118,49 @@ body a {
 }
 
 /* MAIN */
-/* non so come dare lo stesso padding ai felx-container
- in modo da averli tutti equidistanti dalle section */
 
 
+/* hero section */
 .hero-section {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-
-
     display: flex;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
 
 .hero-cont {
-    background-color: palevioletred;
+
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
 
 }
+
+.hero-cont h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.hero-cont p {
+    margin-bottom: 20px;
+    line-height: 1.3rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.btn-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* fine hero section */
 
 .flex-container {
     display: flex;
