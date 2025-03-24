@@ -19,22 +19,20 @@ img {
     /* debug */
 }
 
-.py-20 {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
+
 
 .py-50 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
+/* Palette */
 .gray-bg {
     background-color: #F6F6F6;
 }
 
 .dark-bg {
-    background-color: rgba(63, 62, 62, 0.849);
+    background-color: #23272A;
 }
 
 body {
@@ -120,8 +118,6 @@ a {
 
 
 .nav-list {
-
-    list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,6 +138,7 @@ a {
 .hero-section {
     background-image: url(../img/jumbo.png);
     background-size: cover;
+
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -265,13 +262,13 @@ a {
 
 .flex-footer {
     display: flex;
-    padding: 10px 0 20px 0;
+    padding: 50px 0 20px 0;
 
 
 }
 
+/* Colonna grande */
 .col-big {
-
     width: 30%;
 
 
@@ -296,13 +293,19 @@ a {
     margin-bottom: 10px;
     color: #ffffff;
     display: flex;
-    align-content: center;
+    align-items: center;
 
 }
 
 .language img {
     height: 20px;
+    margin-right: 10px;
 
+}
+
+.language span {
+    text-align: center;
+    vertical-align: middle;
 }
 
 .icons {
@@ -312,9 +315,8 @@ a {
 
 }
 
+/* Colonne piccole */
 .col-small {
-
-    min-height: 300px;
     width: 17.5%;
 
 }
@@ -336,8 +338,8 @@ a {
 }
 
 
-.footer2 {}
 
+/* Footer2 */
 .flex-footer2 {
     border-top: 2px solid #7289DA;
 
