@@ -13,7 +13,7 @@ img {
 /* COMMON */
 .container {
     width: 70%;
-    max-width: 1000px;
+    max-width: 1400px;
     margin: 0 auto;
 
     /* debug */
@@ -50,11 +50,13 @@ body a {
     color: black;
     border-radius: 20px;
     padding: 10px 10px;
+
 }
 
 .dark-btn {
     background-color: #23272a;
     color: #ffffff;
+    margin-left: 15px;
 }
 
 
@@ -72,6 +74,7 @@ body a {
 .header-nav {
 
     display: flex;
+    min-width: 870px;
 
 
 }
@@ -81,14 +84,15 @@ body a {
     align-items: center;
     width: 20%;
     padding: 5px;
-    min-width: 124px;
+
 }
 
 .navigation {
     width: 60%;
     display: flex;
     justify-content: center;
-    min-width: 520px;
+
+
 }
 
 .login {
@@ -133,6 +137,7 @@ body a {
 .hero-cont {
 
     width: 60%;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,15 +154,16 @@ body a {
 
 .hero-cont p {
     margin-bottom: 20px;
-    line-height: 1.3rem;
+    line-height: 1.7rem;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #ffffff;
 }
 
 .btn-cont {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 /* fine hero section */
@@ -169,15 +175,28 @@ body a {
 }
 
 .col-40 {
-    background-color: pink;
     width: 40%;
-    height: 300px;
+
+}
+
+.col-40 h2 {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 20px;
+
+}
+
+.col-40 p {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    color: #000000;
+
 }
 
 .col-60 {
-    background-color: rgba(21, 192, 223, 0.719);
     width: 60%;
-    height: 300px;
+    display: inline-block;
+
 }
 
 .green-container {
