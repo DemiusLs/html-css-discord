@@ -1,0 +1,175 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+/* COMMON */
+.container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    /* debug */
+}
+
+.py-20 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.gray-bg {
+    background-color: gray;
+}
+
+.dark-bg {
+    background-color: rgba(63, 62, 62, 0.849);
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    background-color: aliceblue;
+    height: 50px;
+    align-items: center;
+}
+
+.header-nav {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo-block {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 20%;
+    padding: 5px;
+
+}
+
+.navigation {
+    border: 2px solid black;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    min-width: 200px;
+}
+
+.login {
+    border: 2px solid black;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.login button {
+    background-color: orange;
+    border: none;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li {
+    margin-right: 10px;
+}
+
+/* MAIN */
+/* non so come dare lo stesso padding ai felx-container
+ in modo da averli tutti equidistanti dalle section */
+
+
+.hero-section {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-cont {
+    background-color: palevioletred;
+    width: 60%;
+
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.col-40 {
+    background-color: pink;
+    width: 40%;
+    height: 300px;
+}
+
+.col-60 {
+    background-color: rgba(21, 192, 223, 0.719);
+    width: 60%;
+    height: 300px;
+}
+
+.green-container {
+    height: 600px;
+    background-color: green;
+
+
+}
+
+/* FOOTER */
+.footer {
+    min-height: 500px;
+}
+
+.flex-footer {
+    display: flex;
+    padding: 5px 0 20px 0;
+
+
+}
+
+.col-big {
+    background-color: pink;
+    width: 30%;
+    min-height: 300px;
+
+}
+
+.col-small {
+    background-color: rgb(62, 208, 228);
+    min-height: 300px;
+    width: 17.5%;
+    border: 2px solid black;
+}
+
+.footer2 {
+    border: 2px solid gray;
+}
+
+.flex-footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    min-height: 30px;
+    margin-top: 10px;
+}
+
+.btn-footer {
+    background-color: pink;
+    border: 1px solid black;
+}
